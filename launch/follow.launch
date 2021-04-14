@@ -1,0 +1,6 @@
+<launch>
+	<node pkg="change_line" type="8_follow_the_carrot.py" name="followTheCarrot"/>
+
+	<node pkg="change_line" type="local_path_plan.py" name="local_path_plan" />
+
+</launch>
